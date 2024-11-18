@@ -68,7 +68,7 @@ bool isValid(vector<bool> map2){
   res2 = 0;
   for(int i = 0;i<5;++i){
     res2 += map[i][4-i];
-  }
+  } 
   if(res2 == 0 || res2 == 5){
     return false;
   }
